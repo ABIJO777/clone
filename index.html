@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Disney+ Clone</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <img src="https://fossbytes.com/wp-content/uploads/2021/07/5271-disney-hotstar-premiums-june-releases.jpg" class=" brand-logo" alt="disney+logo">
+    <ul class="nav-links">
+      <li class="nav-items"><a href="">TV</a></li>
+      <li class="nav-items"><a href="">Movie</a></li>
+      <li class="nav-items"><a href="">Sports</a></li>
+      <li class="nav-items"><a href="">Premium</a></li>
+    </ul>
+
+    <div class="right-container">
+      <input type="text" class="search-box" placeholder="search">
+      <button class="Subscribe">Search</button>
+      <a href="#" class="login-btn">Login</button>
+    </div>
+  </nav>
+
+
+  <div class="carousel-container">
+    <div class="carousel">
+       <div class = "slider">
+         <div class="slide-content">
+           <h2 class="movie-title">Kalki</h2>
+           <p class="movie-des">Kalki 2898 AD (pronounced [kə.l.kɪ]) is a 2024 Indian Telugu-language epic science fiction film[9] directed by Nag Ashwin and produced by Vyjayanthi Movies. The film stars Amitabh Bachchan, Kamal Haasan, Prabhas, Deepika Padukone and Disha Patani. Inspired by Hindu mythology, it is the first instalment in a planned Kalki Cinematic Universe. Set in a post-apocalyptic world in the year 2898 AD, the film follows a select group on a mission to save Kalki, the unborn child of SUM-80, a lab subject.</p>
+          </div>
+          <img src = "https://th.bing.com/th/id/OIP.9YIc2M2y3XVlEPHnvRrtIwAAAA?rs=1&pid=ImgDetMain" class ="card-img alt="Poster1"> 
+        </div> 
+    </div>
+  </div>
+
+  <div class="video-card-container">
+    <div class="video-card">
+      <img src="https://th.bing.com/th/id/R.8ea9400d97d298e69e25b278a97c31f4?rik=xZWTBNv0PM7uHA&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f05%2fColor-Walt-Disney-logo.jpg&ehk=NWJcK%2bTW%2f1TVJCLkqhoAlDDB5iSOnsXFQ%2f9brRIXKaY%3d&risl=&pid=ImgRaw&r=0" class="video-card-image" alt="disney logo">
+      <Video src="./videos/disney.mp4" muted loop class="card-video"></Video>
+    </div>
+    <div class="video-card">
+      <img src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/11/tom-hiddlestone-god-loki-season-2-poster.jpg" class="video-card-image" alt="pixer logo">
+      <Video src="./videos/pixar.mp4" muted loop class="card-video"></Video>
+    </div>
+    <div class="video-card">
+      <img src="https://th.bing.com/th/id/R.c44817a70062cba019b1c5b85f5a9a3f?rik=%2bxlFgaFNCczvSw&riu=http%3a%2f%2fcdn.collider.com%2fwp-content%2fuploads%2f2016%2f07%2fmarvel-studios-logo-2016.jpg&ehk=viQzWrDyLUR2Z1ffMZH9f%2b2LKLS4tjursh1AaCQI2Sk%3d&risl=&pid=ImgRaw&r=0" class="video-card-image" alt="marvel logo">
+      <Video src="./videos/marvel.mp4" muted loop class="card-video"></Video>
+    </div>
+    <div class="video-card">
+      <img src="https://external-preview.redd.it/iWWJln1DwG6Y_qPEkUqQMq02hKtHTiemXdbw9q8XUgs.png?format=pjpg&auto=webp&s=77735a529370a6d3b8609834998fa7a501ca5928" class="video-card-image" alt="Star Wars logo">
+      <Video src="./videos/star-war.mp4" muted loop class="card-video"></Video>
+    </div>
+    <div class="video-card">
+      <img src="https://image.tmdb.org/t/p/w1280/aT0XL7YLDx9GfpU2q8kgWUtn0on.jpg" class="video-card-image" alt="geographic logo">
+      <Video src="./videos/geographic.mp4" muted loop class="card-video"></Video>
+    </div>
+  </div>
+
+  <h1 class="title">Recommended for you</h1>
+  <div class="movies-list">
+    <a href="#"></a>
+    <button class="pre-btn"><img src="pre.png" alt=""></button>
+    <button class="nxt-btn"><img src="nxt.png" alt=""></button>
+    
+    <div class="card-container">
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.BMFFsuNilrLPO-QCaqiz6AAAAA?rs=1&pid=ImgDetMain" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Openheimer</h2>
+          <h6 class="des">
+           A dramatization of the life story of J. Robert Oppenheimer</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.etsystatic.com/23817450/r/il/c76ecc/2976262986/il_fullxfull.2976262986_oec9.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Godzilla vs. Kong
+          </h2>
+          <h6 class="des">
+            It is a 2021 American monster film  distributed by Warner Bros.
+          </h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.lUG_k9C7ShQCOUYLo9iFdQAAAA?rs=1&pid=ImgDetMain" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Varshangalku shesham</h2>
+          <h6 class="des"> it is an comedy drama film.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.HRXL3eg2KTqrHaS4B7QVrAAAAA?rs=1&pid=ImgDetMain" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Manjummel Boys</h2>
+          <h6 class="des">Manjummel Boys is a Malayalam-language survival thriller film.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.myvue.com/-/jssmedia/vuecinemas/img/import/bb18ebe3-4fa2-42e3-87b4-4687920da177_aavesham_posters_aavesham-03_712px.jpg?mw=450&rev=075d983ae62e46ec968bf2d0443eaa2b" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Avesham</h2>
+          <h6 class="des">Aavesham (transl. Excitement) is a Malayalam-language stoner action comedy film.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.Km6nZ499apryBlRrmBbXoAHaKd?rs=1&pid=ImgDetMain" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name"> Nun 2</h2>
+          <h6 class="des">The Nun II was released in the United States by Warner Bros.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://m.media-amazon.com/images/M/MV5BYzFmODBhMjQtNjE0ZC00ZjczLTg5ZjktNTZhYzA0YmVkNzZjXkEyXkFqcGdeQXVyMTYwMjkzMjkx._V1_.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Premalu</h2>
+          <h6 class="des">Premalu (transl. Love) is a 2024 Indian Malayalam-language romantic comedy film</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/b4/Challengers_2024_poster.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Challengers</h2>
+          <h6 class="des">Challengers is a 2024 American romantic sports drama film directed by Luca</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.Ld1vd37BnwFYgBs_aUsuwgAAAA?rs=1&pid=ImgDetMain" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">The Exorcist: Believer </h2>
+          <h6 class="des"> Believer is a 2023 American supernatural horror film directed by David Gordon Greenr.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c6/Mast_Mein_Rehne_Ka_poster.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Mast Mein Rehne Ka</h2>
+          <h6 class="des">Mast Mein Rehne Ka is 2023 Indian Hindi-language comedy drama film directed by Vijay Maurya</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>  
+    </div>
+  </div>
+
+  
+
+  <!-- Popular Shows -->
+
+  <h1 class="title">Television Series</h1>
+  <div class="movies-list">
+    <button class="pre-btn"><img src="images/pre.png" alt=""></button>
+    <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+    <div class="card-container">
+
+      <div class="card">
+        <img src="https://www.themoviedb.org/t/p/original/cFfzr7kenrqeulqs000tjeJOzaj.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Money heist</h2>
+          <h6 class="des"> Money heist is a Spanish television crime-drama series.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://th.bing.com/th/id/R.0509d8ecb4fb91d44935eb7c26f5f429?rik=p%2fa0tc2W1IqV2A&riu=http%3a%2f%2fvignette4.wikia.nocookie.net%2flostpedia%2fimages%2f8%2f8c%2fLost_Season_5_Under_Cover.jpg%2frevision%2flatest%3fcb%3d20100106023304&ehk=OBkLtmTbjkR9SYwct0C8riPffO5nYIGbftZ%2fWpwSNyg%3d&risl=1&pid=ImgRaw&r=0" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Lost</h2>
+          <h6 class="des">Lost is an American science fiction adventure drama television series created by Jeffrey Lieber</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://flxt.tmsimg.com/assets/p185846_b_v8_ad.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Breaking bad</h2>
+          <h6 class="des">Breaking Bad is an American crime drama television series.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://i0.wp.com/justabouttv.fr/wp-content/uploads/75340-26.jpg?fit=680%2C1000" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">prison break</h2>
+          <h6 class="des">American drama television series created by Paul Scheuring for Fox. The series revolves around two brothers.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://th.bing.com/th/id/R.7bf30cfcc72b2e26841ec6708de8299b?rik=TdTeObNwNfXfkQ&riu=http%3a%2f%2fimages6.fanpop.com%2fimage%2farticles%2f265000%2fstranger-things_265399_top_full.jpg%3fcache%3d1513115071&ehk=pp3eS3nOFY%2fP2I%2f2Cdxv1ob0Kf3AamGCv61f9v3m01k%3d&risl=&pid=ImgRaw&r=0" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Stranger things</h2>
+          <h6 class="des">is an American science fiction drama television series created by the Duffer Brothers.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://files.spoilertv.com/show_icons/614.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Narcos</h2>
+          <h6 class="des">A DEA agent is sent to Colombia to capture the Colombian kingpin of cocaine, Pablo Escobar.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.siAsgcdWVoZSBphSb0LHngHaJ3?rs=1&pid=ImgDetMain" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Peaky blinders</h2>
+          <h6 class="des">Tommy Shelby, a dangerous man, leads the Peaky Blinders, a gang based in Birmingham.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://static.tvtropes.org/pmwiki/pub/images/da6c96bd_c064_49e7_a818_d8d0b17b79ed.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Wednesday</h2>
+          <h6 class="des">While attending Nevermore Academy, Wednesday Addams attempts to master her emerging psychic ability.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://wallpapercave.com/wp/wp10247517.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Squid game</h2>
+          <h6 class="des">Hundreds of cash-strapped contestants accept an invitation to compete in children's games for a tempting prize, but the stakes are deadly.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.JvRfYGeXTXsY-tVlwEUDfQHaLH?rs=1&pid=ImgDetMain" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Family guy</h2>
+          <h6 class="des"> Family Guy is an animated comedy show about a dysfunctional family in Rhode Island.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- New Releases -->
+  <h1 class="title">Latest Releases</h1>
+  <div class="movies-list">
+    <button class="pre-btn"><img src="" alt=""></button>
+    <button class="nxt-btn"><img src="images/nxt.png" alt=""></button>
+    <div class="card-container">
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/e/e2/Turbo_Poster.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Turbo</h2>
+          <h6 class="des">Jeep driver Jose gets in trouble and is forced to relocate to Chennai.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c8/Guruvayoor_Ambalanadayil.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Guruvayoor ambalanadayil</h2>
+          <h6 class="des"> before marrying he suffers her wrath over it.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/09/Bramayugam_poster.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Bramayugam</h2>
+          <h6 class="des">the Paanan caste loses his way after narrowly escaping a slave market.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/Abraham_Ozler_2024.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Ozler</h2>
+          <h6 class="des">Veteran cop Abraham Ozler begins to investigate a mysterious.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/f/fb/The_Goat_Life_poster.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Goat life</h2>
+          <h6 class="des">Indian migrant worker Najeeb Muhammed goes to Saudi Arabia to earn money </h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/b7/Malaikottai_Vaaliban_poster.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Malaikottai Vaaliban</h2>
+          <h6 class="des">The life of a legendary man.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://th.bing.com/th/id/OIP.7Haif-jp2KiqVzACjSgTowHaHa?rs=1&pid=ImgDetMain" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Avatar</h2>
+          <h6 class="des">Jake Sully and Ney'tiri have formed a family.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://sportshub.cbsistatic.com/i/2023/12/13/9668ea65-19bf-4953-a416-3e0b7cc8c5e9/kung-fu-panda-4-poster.jpg?auto=webp&width=1200&height=1500&crop=0.8:1,smart" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Kung fu panda 4</h2>
+          <h6 class="des"></h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://www.comingsoon.net/wp-content/uploads/sites/3/2023/12/Furiosa-poster.jpeg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Furiosa: A Mad Max Saga</h2>
+          <h6 class="des"> young Furiosa war led to be  warlord Dementus..</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/cf/Kingdom_of_the_Planet_of_the_Apes_poster.jpg" alt="" class="card-img">
+        <div class="card-body">
+          <h2 class="name">Kingdom of the planet of the apes</h2>
+          <h6 class="des"> a young ape goes on a journey.</h6>
+          <button class="watchlist-btn">add to watchlist</button>
+        </div>
+      </div>
+      </section>
+      <!-- end of movie section -->
+    </div>
+  </div>
+  
+  
+
+
+
+</div>
+<br>
+
+
+<div class="last-footer">
+    <div class="last-footer-texts">
+        <h3>© 2023 Disney+. All Rights Reserved.</H3>
+        <div class="last-footer-links">
+            <a href="#">Terms Of Use</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">FAQ</a>
+        </div>
+    </div>
+    <div class="last-footer-images">
+        <a href="#"><img src="https://res.cloudinary.com/ds57cmzxo/image/upload/f_auto,q_80/Webseite/grafiken/play-store-logo" class="dwn" alt=""></a>
+        <a href="#"><img src="https://static.wixstatic.com/media/934aa2_dbe20766d5f14614997b6adf6e623518~mv2.jpg/v1/fill/w_351,h_115,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/png-transparent-app-store-apple-logo-app.jpg" class="dwn" alt=""></a>
+    </div>
+</div>
+
+ 
+  <script src="script.js" async></script>
+</body>
+
+</html>
